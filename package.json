@@ -1,0 +1,28 @@
+{
+  "name": "automatisering-publicering",
+  "version": "1.0.0",
+  "description": "Webbplatsen består av tre undersidor:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "images": "node optimize-images.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliatwood/Automatisering-publicering.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliatwood/Automatisering-publicering/issues"
+  },
+  "homepage": "https://github.com/aliatwood/Automatisering-publicering#readme",
+  "devDependencies": {
+    "imagemin": "^9.0.1",
+    "imagemin-webp": "^8.0.0",
+    "vite": "^7.3.1"
+  }
+}
