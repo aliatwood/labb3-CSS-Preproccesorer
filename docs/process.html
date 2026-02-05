@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbetsprocess</title>
+  <script type="module" crossorigin src="./assets/main-DsEtJVMi.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-kUNoaM5r.css">
+</head>
+<body>
+    <nav class="meny">
+        <button id="meny-växling">☰</button>
+        <a href="index.html">Startsida</a>
+        <a href="bilder.html">Bilder</a>
+        <a href="process.html">Arbetsprocess</a>
+    </nav>
+
+    <main>
+        <div class="process">
+            <h1>Min arbetsprocess</h1>
+            <p>Denna sida beskriver hur jag har byggt webbplatsen och vilka verktyg jag har använt. Syftet är att visa hur arbetsflödet fungerar, vilka delar som är automatiserade och hur publicering sker.</p>
+            <h2>Steg för steg arbetsflöde</h2>
+            <h3>1. Skapade projektet</h3>
+            <p>Jag skapade en mapp för projektet och initierade ett NodeJS-projekt med npm init. Arbetsfiler ligger i src/ och publiceringsfiler kommer automatiskt hamna i dist/.</p>
+            <h3>2. Skapade startsidan</h3>
+            <p>På startsidan lade jag till en huvudmeny, rubrik, introduktion och en kort lista som beskriver webbplatsens syfte och innehåll.</p>
+            <h3>3. Skapade bildersidan</h3>
+            <p>Jag lade in fem bilder i mappen src/images och byggde ett responsivt galleri som visar alla bilder. Bilderna har alt-texter för tillgänglighet.</p>
+            <h3>4. Skapade arbetsprocess-sidan</h3>
+            <p>Denna sida beskriver hur webbplatsen byggts, vilka verktyg som används och vad som automatiseras.</p>
+            <h2>Automatisering</h2>
+            <p>När webbplatsen är färdig kommer NodeJS automatiskt att hantera följande:</p>
+            <ul class="lista">
+                <li>Minifiering av CSS-filer</li>
+                <li>Minifiering av JavaScript-filer</li>
+                <li>Optimering av bilder till moderna format som WebP/AVIF</li>
+                <li>Kopiering av arbetsfiler till publiceringsmappen dist/</li>
+            </ul>
+            <h2>Publicering</h2>
+            <p>Webbplatsen kommer att publiceras automatiskt via GitHub tillsammans med en hostingtjänst. Under utveckling används en development-branch, och den färdiga versionen publiceras från main-branchen.</p>
+            <h2>Avslutning</h2>
+            <p>Syftet med arbetsprocessen är att visa hur man bygger och automatiserar en modern webbplats på ett strukturerat sätt, vilket underlättar utveckling, underhåll och publicering.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026</p>
+    </footer>
+
+</body>
+</html>
