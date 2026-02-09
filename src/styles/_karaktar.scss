@@ -31,7 +31,7 @@
 
 .karaktar{
     &.flash{
-        @include karaktar-card($flash-red, $text-light);
+        @include karaktar-card($flash-red, $text-dark);
     }
 
     &.reverse{
