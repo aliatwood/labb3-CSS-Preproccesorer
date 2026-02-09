@@ -1,0 +1,20 @@
+@use "variables";
+
+$theme: light;
+
+body{
+    @if $theme == light{
+        background-color: variables.$theme-light-background;
+        color: variables.$theme-light-text;
+    } else {
+        background-color: variables.$theme-dark-background;
+        color: variables.$theme-dark-text;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: variables.$theme-dark-background;
+        color: variables.$theme-dark-text;
+    }
+}
