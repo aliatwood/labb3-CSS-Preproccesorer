@@ -4,11 +4,12 @@ import { resolve } from "path";
 export default defineConfig({
   base: './',
   build: {
-    outDir: "../docs",
+    outDir: "docs",
     emptyOutDir: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
+        sass: resolve(__dirname, "src/sass.html")
       }
     }
   }

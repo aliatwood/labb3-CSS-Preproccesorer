@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use 'mixins' as *;
+
 @mixin karaktar-card($bg-color, $text-color) {
     background-color: $bg-color;
     color: $text-color;
