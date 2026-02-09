@@ -3,6 +3,7 @@
 $theme: light;
 
 body{
+    margin: 0;
     @if $theme == light{
         background-color: $theme-light-background;
         color: $theme-light-text;
