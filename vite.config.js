@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: './',
+  base: '/labb3-CSS-Preproccesorer/',
   build: {
     outDir: "docs",
     emptyOutDir: true,
