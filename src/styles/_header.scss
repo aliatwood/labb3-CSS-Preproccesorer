@@ -1,23 +1,23 @@
-@use "variables";
-@use "mixins";
+@use "variables" as *;
+@use "mixins" as *;
 
 header{
-    background-color: variables.$flash-red;
-    padding: variables.$spacing-medium;
+    background-color: $flash-red;
+    padding: $spacing-medium;
 
     .meny{
-        @include mixins.flex-center;
-        gap: variables.$spacing-medium;
+        @include flex-center;
+        gap: $spacing-medium;
     }
 
     a{
-        color: variables.$text-light;
+        color: $text-light;
         text-decoration: none;
-        font-family: variables.$font-main;
+        font-family: $font-main;
         font-weight: bold;
     }
 
-    @media(max-width: variables.$breakpoint-mobile) {
+    @media(max-width: $breakpoint-mobile) {
         .meny{
             flex-direction: column;
         }
