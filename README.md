@@ -1,23 +1,22 @@
-# Laboration 2 – ECMAScript
+# Laboration 3 – CSS-Preprocessorer
 
-## Projektbeskrivning
-Denna webbplats visar ramschemat för Webbutvecklingsprogrammet och använder JSON-data från MIUN:s server.  
+## Beskrivning
+Detta projekt är en webbplats baserad på **The Flash**-universum.  
+Webbplatsen använder **SCSS** som CSS-preprocessor och implementerar:
 
-Funktioner:
+- Variabler för färgscheman, typografi och spacing
+- Mixins för layout och textstorlek
+- Nesting och partials för organiserad kodstruktur
+- Light och dark theme via media queries
+- Responsiv design för olika skärmstorlekar
+- Huvudmeny med minst fem alternativ
+- Minst två bilder och karaktärskort på startsidan
 
-1. Hämtar kursdata med **Fetch API** och `async/await`.  
-2. Dynamiskt renderar en tabell med kurskod, kursnamn och progression.  
-3. Möjlighet att **sortera tabellen** genom att klicka på rubrikerna.  
-4. Möjlighet att **filtrera/söka** på kurskod och kursnamn direkt i tabellen.
+Webbplatsen består av två HTML-sidor:  
+- `index.html` – Startsida med karaktärskort  
+- `sass.html` – Sass-sidan med utvärdering av arbetet med SASS  
 
-## Branch-arbetssätt
-Utveckling sker i `development`-branchen.  
-När labben är färdig mergas ändringarna till `main`, som används för publicering via GitHub Pages.
-
-
-## Automatisering
-Projektet använder samma automatiserade arbetsprocess som i Labb 1:
 
 ## Publicerad webbplats
 Webbplatsen publiceras automatiskt via **GitHub Pages**.  
-[Länk till den publicerade webbplatsen](https://aliatwood.github.io/labb2-ECMAScript/)
+[Länk till den publicerade webbplatsen](https://aliatwood.github.io/labb3-CSS-Preproccesorer/)
